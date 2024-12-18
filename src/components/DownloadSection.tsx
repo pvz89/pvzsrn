@@ -1,5 +1,6 @@
 import React from 'react';
 import { Download } from 'lucide-react';
+import { Button } from './ui/button';
 
 interface DownloadSectionProps {
   version: string;
@@ -9,25 +10,24 @@ interface DownloadSectionProps {
 
 const DownloadSection: React.FC<DownloadSectionProps> = ({ version, size, downloadUrl }) => {
   return (
-    <div className="bg-white rounded-lg shadow-card p-6 my-8">
-      <h2 className="text-2xl font-bold mb-4">Download Information</h2>
-      <div className="space-y-4">
-        <div className="flex justify-between items-center border-b pb-2">
-          <span className="text-gray-600">Version</span>
-          <span className="font-semibold">{version}</span>
+    <div className="space-y-4">
+      <div className="grid grid-cols-2 gap-4 text-sm">
+        <div className="flex items-center gap-2">
+          <span className="font-semibold">Version:</span>
+          <span className="text-gray-600">{version}</span>
         </div>
-        <div className="flex justify-between items-center border-b pb-2">
-          <span className="text-gray-600">Size</span>
-          <span className="font-semibold">{size}</span>
+        <div className="flex items-center gap-2">
+          <span className="font-semibold">Size:</span>
+          <span className="text-gray-600">{size}</span>
         </div>
-        <a 
-          href={downloadUrl}
-          className="inline-flex items-center justify-center w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-primary/90 transition-colors"
-        >
-          <Download className="w-5 h-5 mr-2" />
-          Download Now
-        </a>
       </div>
+      <Button 
+        className="w-full bg-green-500 hover:bg-green-600"
+        onClick={() => window.location.href = downloadUrl}
+      >
+        <Download className="w-5 h-5 mr-2" />
+        Download (Latest Version)
+      </Button>
     </div>
   );
 };

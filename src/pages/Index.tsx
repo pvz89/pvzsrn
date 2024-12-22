@@ -7,6 +7,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import FeatureSection from '../components/FeaturesSection';
 import AppDetails from '../components/AppDetails';
 import Footer from '../components/Footer';
+import AppHeader from '../components/AppHeader';
 
 const tableOfContents = [
   { id: 'introduction', title: 'Introduction to Plants vs. Zombies MOD APK', tag: 'h2' },
@@ -145,30 +146,12 @@ const Index = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="flex items-center gap-4 mb-6">
-            <img 
-              src="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png" 
-              alt="Plants vs Zombies" 
-              className="w-16 h-16 rounded-lg"
-            />
-            <div className="flex-1">
-              <h1 className="text-2xl font-bold">Download Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.0 free on android</h1>
-              <div className="flex items-center justify-between mt-2">
-                <div className="flex items-center gap-4">
-                  <div className="flex items-center">
-                    {[1, 2, 3, 4].map((star) => (
-                      <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                    <span className="text-gray-600 ml-2">4.3</span>
-                  </div>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span>Version: 3.8.0</span>
-                    <span>Size: 150MB</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <AppHeader 
+            title="Download Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.0 free on android"
+            version="3.8.0"
+            size="150MB"
+            iconUrl="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png"
+          />
 
           <DownloadSection 
             downloadUrl="#"

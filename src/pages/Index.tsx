@@ -32,7 +32,7 @@ const articleContent = [
   { type: "paragraph" as const, text: "Master the intricate gameplay mechanics that make Plants vs. Zombies 2 a strategic masterpiece. Learn about plant combinations, zombie types, and level-specific challenges. Understanding the timing of plant placement, sun management, and power-up usage is crucial for success in both campaign and competitive modes." },
   
   { type: "heading2" as const, text: "Comprehensive Strategy Guide" },
-  { type: "paragraph" as const, text: "Our detailed strategy guide covers everything from basic mechanics to advanced techniques. Learn optimal plant combinations for different scenarios, effective resource management strategies, and tips for handling challenging levels. Whether you\"re a beginner or an experienced player, our guide will help you improve your gameplay and achieve higher scores." },
+  { type: "paragraph" as const, text: "Our detailed strategy guide covers everything from basic mechanics to advanced techniques. Learn optimal plant combinations for different scenarios, effective resource management strategies, and tips for handling challenging levels. Whether you're a beginner or an experienced player, our guide will help you improve your gameplay and achieve higher scores." },
   
   { type: "heading2" as const, text: "Conclusion" },
   { type: "paragraph" as const, text: "Plants vs. Zombies 2 MOD APK offers an enhanced gaming experience with unlimited resources and unlocked content. Download our modified version to enjoy the full potential of this strategic tower defense game. Join our growing community of players and experience the excitement of defending your garden against endless waves of zombies." }
@@ -140,19 +140,52 @@ const Index = () => {
           </div>
         </div>
 
-        <TableOfContents />
-
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="prose max-w-none">
-            <ArticleContent content={articleContent} />
-          </div>
-        </div>
-
-        <div className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-bold mb-6">Features</h2>
           <div className="space-y-6">
             <FeatureSection version="Version 1" features={featuresV1} />
             <FeatureSection version="Version 2" features={featuresV2} />
+          </div>
+        </div>
+
+        <TableOfContents />
+
+        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <div className="prose max-w-none">
+            <div id="master-controls">
+              <h2 className="text-xl font-bold mt-8 mb-4">Master Simple Controls and Conquer Challenging Levels</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Get ready to embark on an epic adventure in Plants vs. Zombies 2 with our specially crafted MOD APK. This version enhances your gaming experience with unlimited coins and all plants unlocked, letting you focus on the pure fun of strategic gameplay. Our modified version provides an optimized gaming experience while maintaining the core mechanics that made the original game a worldwide phenomenon.</p>
+            </div>
+
+            <div id="explore-plants">
+              <h2 className="text-xl font-bold mt-8 mb-4">Explore New Plants in PvZ 2</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Discover a vast array of unique plants, each with their own special abilities. From powerful shooters to defensive specialists, build your ultimate plant army to defend against the zombie hordes. The MOD APK version gives you instant access to premium plants like Winter Melon, Electric Peashooter, and Caulipower, allowing you to experiment with different strategies and combinations.</p>
+            </div>
+
+            <div id="compete-worldwide">
+              <h2 className="text-xl font-bold mt-8 mb-4">Compete Against Players Worldwide</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Join millions of players in exciting PvP battles. Test your strategies against real opponents and climb the global rankings. The competitive scene in Plants vs. Zombies 2 has evolved significantly, with regular tournaments and special events that challenge even the most experienced players.</p>
+            </div>
+
+            <div id="mod-advantages">
+              <h2 className="text-xl font-bold mt-8 mb-4">Advantages of MOD APK</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Our MOD APK version offers numerous benefits that enhance your gaming experience. Enjoy unlimited coins, gems, and gauntlets, allowing you to focus on strategy rather than resource management. All premium plants are instantly unlocked, giving you complete freedom to experiment with different combinations and tactics.</p>
+            </div>
+
+            <div id="gameplay-mechanics">
+              <h2 className="text-xl font-bold mt-8 mb-4">Advanced Gameplay Mechanics</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Master the intricate gameplay mechanics that make Plants vs. Zombies 2 a strategic masterpiece. Learn about plant combinations, zombie types, and level-specific challenges. Understanding the timing of plant placement, sun management, and power-up usage is crucial for success in both campaign and competitive modes.</p>
+            </div>
+
+            <div id="strategy-guide">
+              <h2 className="text-xl font-bold mt-8 mb-4">Comprehensive Strategy Guide</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Our detailed strategy guide covers everything from basic mechanics to advanced techniques. Learn optimal plant combinations for different scenarios, effective resource management strategies, and tips for handling challenging levels. Whether you're a beginner or an experienced player, our guide will help you improve your gameplay and achieve higher scores.</p>
+            </div>
+
+            <div id="conclusion">
+              <h2 className="text-xl font-bold mt-8 mb-4">Conclusion</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Plants vs. Zombies 2 MOD APK offers an enhanced gaming experience with unlimited resources and unlocked content. Download our modified version to enjoy the full potential of this strategic tower defense game. Join our growing community of players and experience the excitement of defending your garden against endless waves of zombies.</p>
+            </div>
           </div>
         </div>
       </div>

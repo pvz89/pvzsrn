@@ -6,6 +6,7 @@ import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad } from
 import { ScrollArea } from "@/components/ui/scroll-area";
 import FeatureSection from '../components/FeaturesSection';
 import AppDetails from '../components/AppDetails';
+import Footer from '../components/Footer';
 
 const tableOfContents = [
   { id: 'introduction', title: 'Introduction to Plants vs. Zombies MOD APK', tag: 'h2' },
@@ -251,6 +252,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

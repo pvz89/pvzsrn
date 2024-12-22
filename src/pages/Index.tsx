@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import ArticleContent from '../components/ArticleContent';
 import DownloadSection from '../components/DownloadSection';
-import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad, PlaySquare, Info } from 'lucide-react';
+import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad } from 'lucide-react';
 import { ScrollArea } from "@/components/ui/scroll-area";
 import FeatureSection from '../components/FeaturesSection';
 import AppDetails from '../components/AppDetails';
@@ -150,13 +150,21 @@ const Index = () => {
               alt="Plants vs Zombies" 
               className="w-16 h-16 rounded-lg"
             />
-            <div>
+            <div className="flex-1">
               <h1 className="text-2xl font-bold">Download Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.0 free on android</h1>
-              <div className="flex items-center gap-1 mt-2">
-                {[1, 2, 3, 4].map((star) => (
-                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                ))}
-                <span className="text-gray-600 ml-2">4.3</span>
+              <div className="flex items-center justify-between mt-2">
+                <div className="flex items-center gap-4">
+                  <div className="flex items-center">
+                    {[1, 2, 3, 4].map((star) => (
+                      <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    ))}
+                    <span className="text-gray-600 ml-2">4.3</span>
+                  </div>
+                  <div className="flex items-center gap-4 text-sm text-gray-600">
+                    <span>Version: 3.8.0</span>
+                    <span>Size: 150MB</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -184,8 +192,6 @@ const Index = () => {
             <AppDetails icon={<Zap size={20} />} label="Version" value="3.8.0" />
             <AppDetails icon={<Clock size={20} />} label="Update" value="Nov 27, 2024" />
             <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Coins/Suns" />
-            <AppDetails icon={<PlaySquare size={20} />} label="Get it On" value="Play Store" />
-            <AppDetails icon={<Info size={20} />} label="Report" value="Report Apps" />
           </div>
         </div>
 

@@ -170,8 +170,6 @@ const Index = () => {
           </div>
 
           <DownloadSection 
-            version="3.8.0"
-            size="150MB"
             downloadUrl="#"
           />
 

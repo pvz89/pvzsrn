@@ -2,12 +2,13 @@ import React from 'react';
 import Hero from '../components/Hero';
 import ArticleContent from '../components/ArticleContent';
 import DownloadSection from '../components/DownloadSection';
-import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad } from 'lucide-react';
+import { Smartphone, Building2, List, Database, Zap, Clock, Gamepad } from 'lucide-react';
 import { ScrollArea } from "@/components/ui/scroll-area";
 import FeatureSection from '../components/FeaturesSection';
 import AppDetails from '../components/AppDetails';
 import Footer from '../components/Footer';
 import AppHeader from '../components/AppHeader';
+import PlantsTable from '../components/PlantsTable';
 
 const tableOfContents = [
   { id: 'introduction', title: 'Introduction to Plants vs. Zombies MOD APK', tag: 'h2' },
@@ -145,36 +146,34 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <AppHeader 
-            title="Download Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.0 free on android"
-            version="3.8.0"
-            size="150MB"
-            iconUrl="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png"
-          />
+        <AppHeader 
+          title="Download Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.0 free on android"
+          version="3.8.0"
+          size="150MB"
+          iconUrl="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png"
+        />
 
-          <DownloadSection 
-            downloadUrl="#"
-          />
+        <DownloadSection 
+          downloadUrl="#"
+        />
 
-          <div className="mt-8 bg-gray-50 rounded-lg p-6">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
-            </p>
-          </div>
-          
-          <div className="mt-8 space-y-2">
-            <AppDetails icon={<Smartphone size={20} />} label="Name" value="Plants vs Zombies™" />
-            <AppDetails icon={<Building2 size={20} />} label="Publisher" value="Electronic Arts" />
-            <AppDetails icon={<List size={20} />} label="Genre" value="Casual" />
-            <AppDetails icon={<Database size={20} />} label="Size" value="843.91M" />
-            <AppDetails icon={<Zap size={20} />} label="Version" value="3.8.0" />
-            <AppDetails icon={<Clock size={20} />} label="Update" value="Nov 27, 2024" />
-            <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Coins/Suns" />
-          </div>
+        <div className="mt-8 bg-gray-50 rounded-lg p-6">
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
+          </p>
+        </div>
+        
+        <div className="mt-8 space-y-2">
+          <AppDetails icon={<Smartphone size={20} />} label="Name" value="Plants vs Zombies™" />
+          <AppDetails icon={<Building2 size={20} />} label="Publisher" value="Electronic Arts" />
+          <AppDetails icon={<List size={20} />} label="Genre" value="Casual" />
+          <AppDetails icon={<Database size={20} />} label="Size" value="843.91M" />
+          <AppDetails icon={<Zap size={20} />} label="Version" value="3.8.0" />
+          <AppDetails icon={<Clock size={20} />} label="Update" value="Nov 27, 2024" />
+          <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Coins/Suns" />
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
@@ -234,6 +233,8 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        <PlantsTable />
       </div>
       <Footer />
     </div>

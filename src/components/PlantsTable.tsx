@@ -11,6 +11,12 @@ import { plantsData } from '@/data/plantsData';
 import { Card } from "@/components/ui/card";
 
 const PlantsTable = () => {
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    const target = e.target as HTMLImageElement;
+    target.src = 'https://via.placeholder.com/150';
+    target.onerror = null; // Prevents infinite loop if placeholder also fails
+  };
+
   return (
     <Card className="bg-white rounded-lg shadow-md p-6 mb-8">
       <h2 className="text-2xl font-bold mb-6">Complete Plants Guide</h2>
@@ -29,29 +35,29 @@ const PlantsTable = () => {
                 <TableCell className="font-medium">
                   <div className="flex flex-col items-start gap-2">
                     <span>{plant.name}</span>
-                    <img 
-                      src={plant.image} 
-                      alt={plant.name}
-                      className="w-16 h-16 object-contain rounded-lg bg-gray-50"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = '/placeholder.svg';
-                      }}
-                    />
+                    <div className="relative w-16 h-16 bg-gray-50 rounded-lg overflow-hidden">
+                      <img 
+                        src={plant.image} 
+                        alt={plant.name}
+                        className="w-full h-full object-contain"
+                        onError={handleImageError}
+                        loading="lazy"
+                      />
+                    </div>
                   </div>
                 </TableCell>
                 <TableCell>
                   <div className="flex flex-col items-start gap-2">
                     <span>{plant.formula}</span>
-                    <img 
-                      src={plant.formulaImage} 
-                      alt={`${plant.name} formula`}
-                      className="w-24 h-24 object-contain rounded-lg bg-gray-50"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = '/placeholder.svg';
-                      }}
-                    />
+                    <div className="relative w-24 h-24 bg-gray-50 rounded-lg overflow-hidden">
+                      <img 
+                        src={plant.formulaImage} 
+                        alt={`${plant.name} formula`}
+                        className="w-full h-full object-contain"
+                        onError={handleImageError}
+                        loading="lazy"
+                      />
+                    </div>
                   </div>
                 </TableCell>
                 <TableCell>{plant.skills}</TableCell>

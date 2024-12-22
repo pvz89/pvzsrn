@@ -8,10 +8,11 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { plantsData } from '@/data/plantsData';
+import { Card } from "@/components/ui/card";
 
 const PlantsTable = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+    <Card className="bg-white rounded-lg shadow-md p-6 mb-8">
       <h2 className="text-2xl font-bold mb-6">Complete Plants Guide</h2>
       <div className="overflow-x-auto">
         <Table>
@@ -31,7 +32,11 @@ const PlantsTable = () => {
                     <img 
                       src={plant.image} 
                       alt={plant.name}
-                      className="w-16 h-16 object-contain rounded-lg"
+                      className="w-16 h-16 object-contain rounded-lg bg-gray-50"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = '/placeholder.svg';
+                      }}
                     />
                   </div>
                 </TableCell>
@@ -41,7 +46,11 @@ const PlantsTable = () => {
                     <img 
                       src={plant.formulaImage} 
                       alt={`${plant.name} formula`}
-                      className="w-24 h-24 object-contain rounded-lg"
+                      className="w-24 h-24 object-contain rounded-lg bg-gray-50"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = '/placeholder.svg';
+                      }}
                     />
                   </div>
                 </TableCell>
@@ -51,7 +60,7 @@ const PlantsTable = () => {
           </TableBody>
         </Table>
       </div>
-    </div>
+    </Card>
   );
 };
 

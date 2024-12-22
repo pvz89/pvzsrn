@@ -1,9 +1,10 @@
 import React from 'react';
+import SupportPageHeader from '../components/SupportPageHeader';
 
 const Contact = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
+      <SupportPageHeader title="Contact Us" />
       <div className="prose max-w-none">
         <p className="mb-4">If you have any questions, concerns, or feedback about our services, please don't hesitate to contact us using the information below:</p>
 

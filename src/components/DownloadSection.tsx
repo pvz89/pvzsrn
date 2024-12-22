@@ -14,7 +14,7 @@ const DownloadSection: React.FC<DownloadSectionProps> = ({ downloadUrl }) => {
         onClick={() => window.location.href = "https://files.an1.net/pvz-free-mod_3.8.0-an1.com.apk"}
       >
         <Download className="w-5 h-5 mr-2" />
-        Download (Latest Version) [Plants vs. Zombies MOD APK]
+        Download [Plants vs. Zombies MOD APK]
       </Button>
     </div>
   );

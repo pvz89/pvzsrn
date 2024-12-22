@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <a
-            href="/privacy-policy"
+            href="https://plantvszomod.online/privacy-policy"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-600 hover:text-green-500 transition-colors"
@@ -16,7 +16,7 @@ const Footer = () => {
             Privacy Policy
           </a>
           <a
-            href="/dmca"
+            href="https://plantvszomod.online/dmca"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-600 hover:text-green-500 transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
             DMCA Disclaimer
           </a>
           <a
-            href="/contact"
+            href="https://plantvszomod.online/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-600 hover:text-green-500 transition-colors"
@@ -34,7 +34,7 @@ const Footer = () => {
             Contact
           </a>
           <a
-            href="/toc"
+            href="https://plantvszomod.online/toc"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-600 hover:text-green-500 transition-colors"

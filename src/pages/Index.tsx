@@ -235,8 +235,9 @@ const Index = () => {
         </div>
 
         <PlantsTable />
+        
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

@@ -14,7 +14,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({ title, version, size, iconUrl }) 
       <img 
         src={iconUrl} 
         alt="App Icon" 
-        className="w-24 h-24 rounded-lg"
+        className="w-32 h-32 rounded-lg" // Increased from w-24 h-24 to w-32 h-32
       />
       <div className="flex-1">
         <h1 className="text-2xl font-bold">{title}</h1>

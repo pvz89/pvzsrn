@@ -2,8 +2,10 @@ import React from 'react';
 import Hero from '../components/Hero';
 import ArticleContent from '../components/ArticleContent';
 import DownloadSection from '../components/DownloadSection';
-import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad, PlaySquare, Info, Check } from 'lucide-react';
+import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad, PlaySquare, Info } from 'lucide-react';
 import { ScrollArea } from "@/components/ui/scroll-area";
+import FeatureSection from '../components/FeaturesSection';
+import AppDetails from '../components/AppDetails';
 
 const tableOfContents = [
   { id: 'introduction', title: 'Introduction to Plants vs. Zombies MOD APK', tag: 'h2' },
@@ -105,44 +107,15 @@ const articleContent = [
   }
 ];
 
-const AppDetails = ({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) => (
-  <div className="flex items-center justify-between py-3 px-4 bg-gray-50 rounded-lg">
-    <div className="flex items-center gap-3">
-      <span className="text-green-500">{icon}</span>
-      <span className="text-gray-600">{label}</span>
-    </div>
-    <span className="text-gray-900">{value}</span>
-  </div>
-);
-
-const FeatureSection = ({ version, features }: { version: string; features: string[] }) => (
-  <div className="bg-white rounded-lg p-6 mb-4">
-    <h3 className="text-xl font-semibold mb-4 bg-green-500 text-white py-2 px-4 rounded-t-lg -mx-6 -mt-6">{version}</h3>
-    <ul className="space-y-3">
-      {features.map((feature, index) => (
-        <li key={index} className="flex items-center gap-3">
-          <Check size={20} className="text-green-500 flex-shrink-0" />
-          <span className="text-gray-700">{feature}</span>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-const featuresV1 = [
-  "MOD",
-  "Unlimited Gems",
-  "Unlimited Money",
-  "Unlimited Gauntlets",
-  "MAX Level",
-  "All Unlocked",
-  "100% Working, Approved By Our MOD Testing Team"
-];
-
-const featuresV2 = [
+const features = [
   "Unlimited Coins",
   "Unlimited Gems",
-  "Unlimited Suns"
+  "Unlimited Suns",
+  "All Premium Plants Unlocked",
+  "No Ads",
+  "Free Shopping",
+  "Max Level",
+  "100% Working, Approved By Our MOD Testing Team"
 ];
 
 const TableOfContents: React.FC = () => {
@@ -218,10 +191,7 @@ const Index = () => {
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-bold mb-6">Features</h2>
-          <div className="space-y-6">
-            <FeatureSection version="Version 1" features={featuresV1} />
-            <FeatureSection version="Version 2" features={featuresV2} />
-          </div>
+          <FeatureSection version="Version 3.8.0" features={features} />
         </div>
 
         <TableOfContents />

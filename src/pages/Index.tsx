@@ -78,24 +78,26 @@ const featuresV2 = [
   "Unlimited Suns"
 ];
 
-const TableOfContents = () => (
-  <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-    <h2 className="text-2xl font-bold mb-4">Explore this article</h2>
-    <ScrollArea className="h-[300px] rounded-md">
-      <nav className="space-y-2">
-        {tableOfContents.map((item) => (
-          <a
-            key={item.id}
-            href={`#${item.id}`}
-            className="block text-gray-600 hover:text-green-500 transition-colors duration-200"
-          >
-            {item.title}
-          </a>
-        ))}
-      </nav>
-    </ScrollArea>
-  </div>
-);
+const TableOfContents: React.FC = () => {
+  return (
+    <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 className="text-2xl font-bold mb-4">Explore this article</h2>
+      <ScrollArea className="h-[300px] w-full rounded-md border p-4">
+        <nav className="space-y-2">
+          {tableOfContents.map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              className="block text-gray-600 hover:text-green-500 transition-colors duration-200"
+            >
+              {item.title}
+            </a>
+          ))}
+        </nav>
+      </ScrollArea>
+    </div>
+  );
+};
 
 const Index = () => {
   return (

@@ -6,36 +6,103 @@ import { Star, Smartphone, Building2, List, Database, Zap, Clock, Gamepad, PlayS
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 const tableOfContents = [
-  { id: 'master-controls', title: 'Master Simple Controls and Conquer Challenging Levels', tag: 'h2' },
-  { id: 'explore-plants', title: 'Explore New Plants in PvZ 2', tag: 'h2' },
-  { id: 'compete-worldwide', title: 'Compete Against Players Worldwide', tag: 'h2' },
-  { id: 'mod-advantages', title: 'Advantages of MOD APK', tag: 'h2' },
+  { id: 'introduction', title: 'Introduction to Plants vs. Zombies MOD APK', tag: 'h2' },
+  { id: 'key-features', title: 'Key Features and Enhancements', tag: 'h2' },
   { id: 'gameplay-mechanics', title: 'Advanced Gameplay Mechanics', tag: 'h2' },
-  { id: 'strategy-guide', title: 'Comprehensive Strategy Guide', tag: 'h2' },
+  { id: 'plants-guide', title: 'Complete Plants Guide', tag: 'h3' },
+  { id: 'zombies-guide', title: 'Zombie Types and Strategies', tag: 'h3' },
+  { id: 'mod-features', title: 'MOD Features Explained', tag: 'h2' },
+  { id: 'installation-guide', title: 'Installation Guide', tag: 'h2' },
+  { id: 'tips-tricks', title: 'Advanced Tips and Tricks', tag: 'h2' },
+  { id: 'updates', title: 'Latest Updates and Changes', tag: 'h2' },
   { id: 'conclusion', title: 'Conclusion', tag: 'h2' }
 ];
 
 const articleContent = [
-  { type: "heading2" as const, text: "Master Simple Controls and Conquer Challenging Levels" },
-  { type: "paragraph" as const, text: "Get ready to embark on an epic adventure in Plants vs. Zombies 2 with our specially crafted MOD APK. This version enhances your gaming experience with unlimited coins and all plants unlocked, letting you focus on the pure fun of strategic gameplay. Our modified version provides an optimized gaming experience while maintaining the core mechanics that made the original game a worldwide phenomenon." },
+  { 
+    type: "heading2" as const, 
+    text: "Introduction to Plants vs. Zombies MOD APK" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Plants vs. Zombies has revolutionized the tower defense genre since its initial release, captivating millions of players worldwide with its unique blend of strategy and casual gaming. The MOD APK version 3.8.0 takes this beloved game to new heights by introducing unlimited resources and enhanced features while maintaining the core gameplay that made the original a global phenomenon. This modified version allows players to focus on strategy and enjoyment rather than resource management, making it an ideal choice for both newcomers and veterans of the series." 
+  },
   
-  { type: "heading2" as const, text: "Explore New Plants in PvZ 2" },
-  { type: "paragraph" as const, text: "Discover a vast array of unique plants, each with their own special abilities. From powerful shooters to defensive specialists, build your ultimate plant army to defend against the zombie hordes. The MOD APK version gives you instant access to premium plants like Winter Melon, Electric Peashooter, and Caulipower, allowing you to experiment with different strategies and combinations." },
+  { 
+    type: "heading2" as const, 
+    text: "Key Features and Enhancements" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "The latest version of Plants vs. Zombies MOD APK introduces several game-changing features that enhance the overall gaming experience. Players can enjoy unlimited coins and suns, allowing for unrestricted plant deployment and strategy experimentation. The MOD version also includes all premium plants unlocked from the start, giving players access to powerful defenders like the Winter Melon, Electric Peashooter, and Caulipower without additional purchases. Enhanced graphics and optimized performance ensure smooth gameplay across various devices, while the expanded level selection offers more challenging scenarios to test your tactical prowess." 
+  },
   
-  { type: "heading2" as const, text: "Compete Against Players Worldwide" },
-  { type: "paragraph" as const, text: "Join millions of players in exciting PvP battles. Test your strategies against real opponents and climb the global rankings. The competitive scene in Plants vs. Zombies 2 has evolved significantly, with regular tournaments and special events that challenge even the most experienced players." },
+  { 
+    type: "heading2" as const, 
+    text: "Advanced Gameplay Mechanics" 
+  },
+  { 
+    type: "heading3" as const, 
+    text: "Complete Plants Guide" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Success in Plants vs. Zombies relies heavily on understanding each plant's unique abilities and optimal usage scenarios. Sunflowers remain essential for resource generation, while Peashooters form the backbone of basic defense. Advanced plants like the Melon-pult offer area damage capabilities, crucial for handling waves of zombies. The Threepeater provides multi-lane coverage, making it invaluable for managing simultaneous zombie approaches. Cherry Bombs and Jalapenos serve as emergency clearance options, capable of eliminating entire waves in critical situations. The MOD version allows unrestricted access to premium plants, enabling players to experiment with powerful combinations previously locked behind paywalls." 
+  },
   
-  { type: "heading2" as const, text: "Advantages of MOD APK" },
-  { type: "paragraph" as const, text: "Our MOD APK version offers numerous benefits that enhance your gaming experience. Enjoy unlimited coins, gems, and gauntlets, allowing you to focus on strategy rather than resource management. All premium plants are instantly unlocked, giving you complete freedom to experiment with different combinations and tactics." },
+  { 
+    type: "heading3" as const, 
+    text: "Zombie Types and Strategies" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Understanding zombie varieties is crucial for developing effective defense strategies. Basic zombies serve as cannon fodder but can overwhelm unprepared players in large numbers. Cone-head and Bucket-head zombies require stronger firepower to eliminate, while special variants like the Pole Vaulting Zombie and Newspaper Zombie demand specific counter-strategies. The game introduces increasingly challenging zombie types as players progress, including the formidable Gargantuar and the sneaky Digger Zombie, each requiring unique defensive approaches and plant combinations." 
+  },
   
-  { type: "heading2" as const, text: "Advanced Gameplay Mechanics" },
-  { type: "paragraph" as const, text: "Master the intricate gameplay mechanics that make Plants vs. Zombies 2 a strategic masterpiece. Learn about plant combinations, zombie types, and level-specific challenges. Understanding the timing of plant placement, sun management, and power-up usage is crucial for success in both campaign and competitive modes." },
+  { 
+    type: "heading2" as const, 
+    text: "MOD Features Explained" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "The MOD APK version 3.8.0 introduces several quality-of-life improvements and gameplay enhancements. Players benefit from unlimited coins, allowing for unrestricted plant usage and upgrade purchases. The sun economy is optimized with infinite sun generation, enabling rapid deployment of powerful plants without resource constraints. All premium plants are instantly unlocked, providing access to the complete arsenal of defensive options. Additional features include removed cooldown timers, enhanced plant damage output, and improved resource collection mechanics, creating a more streamlined and enjoyable gaming experience." 
+  },
   
-  { type: "heading2" as const, text: "Comprehensive Strategy Guide" },
-  { type: "paragraph" as const, text: "Our detailed strategy guide covers everything from basic mechanics to advanced techniques. Learn optimal plant combinations for different scenarios, effective resource management strategies, and tips for handling challenging levels. Whether you're a beginner or an experienced player, our guide will help you improve your gameplay and achieve higher scores." },
+  { 
+    type: "heading2" as const, 
+    text: "Installation Guide" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Installing the Plants vs. Zombies MOD APK requires a few simple steps to ensure proper functionality. First, ensure your device allows installation from unknown sources in the security settings. Download the MOD APK file from a trusted source and run the installation package. If you have the original game installed, you may need to uninstall it first to prevent conflicts. After installation, launch the game and verify that all MOD features are working correctly. Regular updates are recommended to maintain optimal performance and access to the latest features." 
+  },
   
-  { type: "heading2" as const, text: "Conclusion" },
-  { type: "paragraph" as const, text: "Plants vs. Zombies 2 MOD APK offers an enhanced gaming experience with unlimited resources and unlocked content. Download our modified version to enjoy the full potential of this strategic tower defense game. Join our growing community of players and experience the excitement of defending your garden against endless waves of zombies." }
+  { 
+    type: "heading2" as const, 
+    text: "Advanced Tips and Tricks" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Mastering Plants vs. Zombies requires more than just unlimited resources. Strategic plant placement is crucial - place sun-producing plants in the back rows while positioning defensive plants in front. Utilize multi-lane attackers efficiently by placing them in central positions. Save instant-kill plants for emergency situations or particularly tough zombies. Take advantage of the environment-specific mechanics in different worlds, such as power tiles in the Far Future or sliders in Ancient Egypt. The MOD version allows for more experimental strategies, but proper tactical planning remains essential for success." 
+  },
+  
+  { 
+    type: "heading2" as const, 
+    text: "Latest Updates and Changes" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Version 3.8.0 brings significant improvements to both gameplay and technical aspects. The update introduces new plant varieties and zombie types, expanding tactical options for players. Performance optimizations ensure smoother gameplay on various devices, while bug fixes address previous stability issues. The MOD features have been enhanced to provide a more balanced experience while maintaining the unlimited resource benefits. Regular content updates keep the game fresh with new challenges and events, providing ongoing entertainment for dedicated players." 
+  },
+  
+  { 
+    type: "heading2" as const, 
+    text: "Conclusion" 
+  },
+  { 
+    type: "paragraph" as const, 
+    text: "Plants vs. Zombies MOD APK 3.8.0 represents the perfect blend of casual gaming accessibility and strategic depth. With unlimited resources and unlocked content, players can fully explore the game's tactical possibilities without restrictions. The enhanced features and regular updates ensure a consistently engaging experience, while the core gameplay mechanics remain as entertaining as ever. Whether you're a newcomer to the series or a returning veteran, this MOD version offers the ultimate Plants vs. Zombies experience, complete with all the tools needed to defend your garden against the zombie hordes." 
+  }
 ];
 
 const AppDetails = ({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) => (
@@ -161,39 +228,51 @@ const Index = () => {
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <div className="prose max-w-none">
-            <div id="master-controls">
-              <h2 className="text-xl font-bold mt-8 mb-4">Master Simple Controls and Conquer Challenging Levels</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Get ready to embark on an epic adventure in Plants vs. Zombies 2 with our specially crafted MOD APK. This version enhances your gaming experience with unlimited coins and all plants unlocked, letting you focus on the pure fun of strategic gameplay. Our modified version provides an optimized gaming experience while maintaining the core mechanics that made the original game a worldwide phenomenon.</p>
+            <div id="introduction">
+              <h2 className="text-xl font-bold mt-8 mb-4">Introduction to Plants vs. Zombies MOD APK</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Plants vs. Zombies has revolutionized the tower defense genre since its initial release, captivating millions of players worldwide with its unique blend of strategy and casual gaming. The MOD APK version 3.8.0 takes this beloved game to new heights by introducing unlimited resources and enhanced features while maintaining the core gameplay that made the original a global phenomenon. This modified version allows players to focus on strategy and enjoyment rather than resource management, making it an ideal choice for both newcomers and veterans of the series.</p>
             </div>
 
-            <div id="explore-plants">
-              <h2 className="text-xl font-bold mt-8 mb-4">Explore New Plants in PvZ 2</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Discover a vast array of unique plants, each with their own special abilities. From powerful shooters to defensive specialists, build your ultimate plant army to defend against the zombie hordes. The MOD APK version gives you instant access to premium plants like Winter Melon, Electric Peashooter, and Caulipower, allowing you to experiment with different strategies and combinations.</p>
-            </div>
-
-            <div id="compete-worldwide">
-              <h2 className="text-xl font-bold mt-8 mb-4">Compete Against Players Worldwide</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Join millions of players in exciting PvP battles. Test your strategies against real opponents and climb the global rankings. The competitive scene in Plants vs. Zombies 2 has evolved significantly, with regular tournaments and special events that challenge even the most experienced players.</p>
-            </div>
-
-            <div id="mod-advantages">
-              <h2 className="text-xl font-bold mt-8 mb-4">Advantages of MOD APK</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Our MOD APK version offers numerous benefits that enhance your gaming experience. Enjoy unlimited coins, gems, and gauntlets, allowing you to focus on strategy rather than resource management. All premium plants are instantly unlocked, giving you complete freedom to experiment with different combinations and tactics.</p>
+            <div id="key-features">
+              <h2 className="text-xl font-bold mt-8 mb-4">Key Features and Enhancements</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">The latest version of Plants vs. Zombies MOD APK introduces several game-changing features that enhance the overall gaming experience. Players can enjoy unlimited coins and suns, allowing for unrestricted plant deployment and strategy experimentation. The MOD version also includes all premium plants unlocked from the start, giving players access to powerful defenders like the Winter Melon, Electric Peashooter, and Caulipower without additional purchases. Enhanced graphics and optimized performance ensure smooth gameplay across various devices, while the expanded level selection offers more challenging scenarios to test your tactical prowess.</p>
             </div>
 
             <div id="gameplay-mechanics">
               <h2 className="text-xl font-bold mt-8 mb-4">Advanced Gameplay Mechanics</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Master the intricate gameplay mechanics that make Plants vs. Zombies 2 a strategic masterpiece. Learn about plant combinations, zombie types, and level-specific challenges. Understanding the timing of plant placement, sun management, and power-up usage is crucial for success in both campaign and competitive modes.</p>
+              <div id="plants-guide">
+                <h3 className="text-lg font-bold mt-6 mb-3">Complete Plants Guide</h3>
+                <p className="text-gray-600 leading-relaxed mb-4">Success in Plants vs. Zombies relies heavily on understanding each plant's unique abilities and optimal usage scenarios. Sunflowers remain essential for resource generation, while Peashooters form the backbone of basic defense. Advanced plants like the Melon-pult offer area damage capabilities, crucial for handling waves of zombies. The Threepeater provides multi-lane coverage, making it invaluable for managing simultaneous zombie approaches. Cherry Bombs and Jalapenos serve as emergency clearance options, capable of eliminating entire waves in critical situations. The MOD version allows unrestricted access to premium plants, enabling players to experiment with powerful combinations previously locked behind paywalls.</p>
+              </div>
+              <div id="zombies-guide">
+                <h3 className="text-lg font-bold mt-6 mb-3">Zombie Types and Strategies</h3>
+                <p className="text-gray-600 leading-relaxed mb-4">Understanding zombie varieties is crucial for developing effective defense strategies. Basic zombies serve as cannon fodder but can overwhelm unprepared players in large numbers. Cone-head and Bucket-head zombies require stronger firepower to eliminate, while special variants like the Pole Vaulting Zombie and Newspaper Zombie demand specific counter-strategies. The game introduces increasingly challenging zombie types as players progress, including the formidable Gargantuar and the sneaky Digger Zombie, each requiring unique defensive approaches and plant combinations.</p>
+              </div>
             </div>
 
-            <div id="strategy-guide">
-              <h2 className="text-xl font-bold mt-8 mb-4">Comprehensive Strategy Guide</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Our detailed strategy guide covers everything from basic mechanics to advanced techniques. Learn optimal plant combinations for different scenarios, effective resource management strategies, and tips for handling challenging levels. Whether you're a beginner or an experienced player, our guide will help you improve your gameplay and achieve higher scores.</p>
+            <div id="mod-features">
+              <h2 className="text-xl font-bold mt-8 mb-4">MOD Features Explained</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">The MOD APK version 3.8.0 introduces several quality-of-life improvements and gameplay enhancements. Players benefit from unlimited coins, allowing for unrestricted plant usage and upgrade purchases. The sun economy is optimized with infinite sun generation, enabling rapid deployment of powerful plants without resource constraints. All premium plants are instantly unlocked, providing access to the complete arsenal of defensive options. Additional features include removed cooldown timers, enhanced plant damage output, and improved resource collection mechanics, creating a more streamlined and enjoyable gaming experience.</p>
+            </div>
+
+            <div id="installation-guide">
+              <h2 className="text-xl font-bold mt-8 mb-4">Installation Guide</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Installing the Plants vs. Zombies MOD APK requires a few simple steps to ensure proper functionality. First, ensure your device allows installation from unknown sources in the security settings. Download the MOD APK file from a trusted source and run the installation package. If you have the original game installed, you may need to uninstall it first to prevent conflicts. After installation, launch the game and verify that all MOD features are working correctly. Regular updates are recommended to maintain optimal performance and access to the latest features.</p>
+            </div>
+
+            <div id="tips-tricks">
+              <h2 className="text-xl font-bold mt-8 mb-4">Advanced Tips and Tricks</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Mastering Plants vs. Zombies requires more than just unlimited resources. Strategic plant placement is crucial - place sun-producing plants in the back rows while positioning defensive plants in front. Utilize multi-lane attackers efficiently by placing them in central positions. Save instant-kill plants for emergency situations or particularly tough zombies. Take advantage of the environment-specific mechanics in different worlds, such as power tiles in the Far Future or sliders in Ancient Egypt. The MOD version allows for more experimental strategies, but proper tactical planning remains essential for success.</p>
+            </div>
+
+            <div id="updates">
+              <h2 className="text-xl font-bold mt-8 mb-4">Latest Updates and Changes</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">Version 3.8.0 brings significant improvements to both gameplay and technical aspects. The update introduces new plant varieties and zombie types, expanding tactical options for players. Performance optimizations ensure smoother gameplay on various devices, while bug fixes address previous stability issues. The MOD features have been enhanced to provide a more balanced experience while maintaining the unlimited resource benefits. Regular content updates keep the game fresh with new challenges and events, providing ongoing entertainment for dedicated players.</p>
             </div>
 
             <div id="conclusion">
               <h2 className="text-xl font-bold mt-8 mb-4">Conclusion</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">Plants vs. Zombies 2 MOD APK offers an enhanced gaming experience with unlimited resources and unlocked content. Download our modified version to enjoy the full potential of this strategic tower defense game. Join our growing community of players and experience the excitement of defending your garden against endless waves of zombies.</p>
+              <p className="text-gray-600 leading-relaxed mb-4">Plants vs. Zombies MOD APK 3.8.0 represents the perfect blend of casual gaming accessibility and strategic depth. With unlimited resources and unlocked content, players can fully explore the game's tactical possibilities without restrictions. The enhanced features and regular updates ensure a consistently engaging experience, while the core gameplay mechanics remain as entertaining as ever. Whether you're a newcomer to the series or a returning veteran, this MOD version offers the ultimate Plants vs. Zombies experience, complete with all the tools needed to defend your garden against the zombie hordes.</p>
             </div>
           </div>
         </div>

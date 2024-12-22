@@ -34,12 +34,12 @@ const PlantsTable = () => {
               <TableRow key={index}>
                 <TableCell className="font-medium">
                   <div className="flex flex-col items-start gap-2">
-                    <span className="font-bold">{plant.name}</span>
-                    <div className="relative w-24 h-24 bg-gray-50 rounded-lg overflow-hidden border border-gray-200">
+                    <span className="font-bold text-base">{plant.name}</span>
+                    <div className="relative w-32 h-32 bg-gray-50 rounded-lg overflow-hidden border-2 border-gray-200">
                       <img 
-                        src={plant.image.replace('/revision/latest', '')} 
+                        src={plant.image} 
                         alt={plant.name}
-                        className="w-full h-full object-contain p-2"
+                        className="w-full h-full object-contain p-2 hover:scale-110 transition-transform duration-200"
                         onError={handleImageError}
                         loading="lazy"
                       />
@@ -48,19 +48,19 @@ const PlantsTable = () => {
                 </TableCell>
                 <TableCell>
                   <div className="flex flex-col items-start gap-2">
-                    <span className="font-semibold">{plant.formula}</span>
-                    <div className="relative w-32 h-32 bg-gray-50 rounded-lg overflow-hidden border border-gray-200">
+                    <span className="font-semibold text-sm text-gray-700">{plant.formula}</span>
+                    <div className="relative w-40 h-40 bg-gray-50 rounded-lg overflow-hidden border-2 border-gray-200">
                       <img 
-                        src={plant.formulaImage.replace('/revision/latest', '')} 
+                        src={plant.formulaImage} 
                         alt={`${plant.name} formula`}
-                        className="w-full h-full object-contain p-2"
+                        className="w-full h-full object-contain p-2 hover:scale-110 transition-transform duration-200"
                         onError={handleImageError}
                         loading="lazy"
                       />
                     </div>
                   </div>
                 </TableCell>
-                <TableCell className="text-sm text-gray-700">{plant.skills}</TableCell>
+                <TableCell className="text-sm text-gray-700 max-w-md">{plant.skills}</TableCell>
               </TableRow>
             ))}
           </TableBody>

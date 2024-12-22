@@ -34,12 +34,12 @@ const PlantsTable = () => {
               <TableRow key={index}>
                 <TableCell className="font-medium">
                   <div className="flex flex-col items-start gap-2">
-                    <span>{plant.name}</span>
-                    <div className="relative w-16 h-16 bg-gray-50 rounded-lg overflow-hidden">
+                    <span className="font-bold">{plant.name}</span>
+                    <div className="relative w-24 h-24 bg-gray-50 rounded-lg overflow-hidden border border-gray-200">
                       <img 
-                        src={plant.image} 
+                        src={plant.image.replace('/revision/latest', '')} 
                         alt={plant.name}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-contain p-2"
                         onError={handleImageError}
                         loading="lazy"
                       />
@@ -48,19 +48,19 @@ const PlantsTable = () => {
                 </TableCell>
                 <TableCell>
                   <div className="flex flex-col items-start gap-2">
-                    <span>{plant.formula}</span>
-                    <div className="relative w-24 h-24 bg-gray-50 rounded-lg overflow-hidden">
+                    <span className="font-semibold">{plant.formula}</span>
+                    <div className="relative w-32 h-32 bg-gray-50 rounded-lg overflow-hidden border border-gray-200">
                       <img 
-                        src={plant.formulaImage} 
+                        src={plant.formulaImage.replace('/revision/latest', '')} 
                         alt={`${plant.name} formula`}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-contain p-2"
                         onError={handleImageError}
                         loading="lazy"
                       />
                     </div>
                   </div>
                 </TableCell>
-                <TableCell>{plant.skills}</TableCell>
+                <TableCell className="text-sm text-gray-700">{plant.skills}</TableCell>
               </TableRow>
             ))}
           </TableBody>

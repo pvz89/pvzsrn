@@ -106,12 +106,12 @@ const Index = () => {
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <div className="flex items-center gap-4 mb-6">
             <img 
-              src="/lovable-uploads/3d70ada6-0860-467a-b2c0-a6b85c52b1a0.png" 
-              alt="Plants vs Zombies 2" 
+              src="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png" 
+              alt="Plants vs Zombies" 
               className="w-16 h-16 rounded-lg"
             />
             <div>
-              <h1 className="text-2xl font-bold">Plants vs. Zombies 2 MOD APK</h1>
+              <h1 className="text-2xl font-bold">Download Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.0 free on android</h1>
               <div className="flex items-center gap-1 mt-2">
                 {[1, 2, 3, 4].map((star) => (
                   <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
@@ -122,19 +122,28 @@ const Index = () => {
           </div>
 
           <DownloadSection 
-            version="17.9.3"
+            version="3.8.0"
             size="150MB"
             downloadUrl="#"
           />
+
+          <div className="mt-8 bg-gray-50 rounded-lg p-6">
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
+            </p>
+          </div>
           
           <div className="mt-8 space-y-2">
-            <AppDetails icon={<Smartphone size={20} />} label="Name" value="Plants vs Zombies™ 2" />
+            <AppDetails icon={<Smartphone size={20} />} label="Name" value="Plants vs Zombies™" />
             <AppDetails icon={<Building2 size={20} />} label="Publisher" value="Electronic Arts" />
             <AppDetails icon={<List size={20} />} label="Genre" value="Casual" />
             <AppDetails icon={<Database size={20} />} label="Size" value="843.91M" />
-            <AppDetails icon={<Zap size={20} />} label="Version" value="11.9.1" />
+            <AppDetails icon={<Zap size={20} />} label="Version" value="3.8.0" />
             <AppDetails icon={<Clock size={20} />} label="Update" value="Nov 27, 2024" />
-            <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Everything, MAX Level" />
+            <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Coins/Suns" />
             <AppDetails icon={<PlaySquare size={20} />} label="Get it On" value="Play Store" />
             <AppDetails icon={<Info size={20} />} label="Report" value="Report Apps" />
           </div>

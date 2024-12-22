@@ -11,7 +11,7 @@ const DownloadSection: React.FC<DownloadSectionProps> = ({ downloadUrl }) => {
     <div className="space-y-4">
       <Button 
         className="w-full bg-green-500 hover:bg-green-600 text-xl font-semibold"
-        onClick={() => window.open("https://files.an1.net/pvz-free-mod_3.8.0-an1.com.apk", "_blank")}
+        onClick={() => window.open("https://www.dropbox.com/scl/fi/rttzzs3e2awlztmgdcst6/planetvszombiemod-apk-free-mod_3.8.0-httpsplantvszomod-online.apk?rlkey=mkni203j476kxyx803icnxic6&st=4k6araix&dl=1", "_blank")}
       >
         <Download className="w-5 h-5 mr-2" />
         Download [Plants vs. Zombies MOD APK]

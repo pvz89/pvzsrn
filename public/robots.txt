@@ -10,6 +10,6 @@ Disallow: /private/
 Disallow: /api/
 Disallow: /cgi-bin/
 Disallow: /tmp/
-Disallow: /*.json$
+
 
 

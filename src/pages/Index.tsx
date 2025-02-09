@@ -112,13 +112,12 @@ const articleContent = [
 
 const features = [
   "Unlimited Coins",
+  "Unlimited Money",
   "Unlimited Gems",
   "Unlimited Suns",
   "All Premium Plants Unlocked",
   "No Ads",
-  "Free Shopping",
   "Max Level",
-  "100% Working, Approved By Our MOD Testing Team"
 ];
 
 const TableOfContents: React.FC = () => {
@@ -147,7 +146,7 @@ const Index = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         <AppHeader 
-          title="Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.1 free on android"
+          title="Plants vs Zombies (MOD, Unlimited Money, Coins, Sun) v3.8.1"
           version="3.8.1"
           size="109.67M"
           iconUrl="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png"

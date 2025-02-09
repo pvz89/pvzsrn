@@ -149,7 +149,7 @@ const Index = () => {
         <AppHeader 
           title="Plants vs. Zombies (MOD, Unlimited Coins/Suns) 3.8.1 free on android"
           version="3.8.1"
-          size="150MB"
+          size="109.67M"
           iconUrl="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png"
         />
 

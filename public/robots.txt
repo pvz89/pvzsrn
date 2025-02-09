@@ -11,8 +11,5 @@ Disallow: /api/
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /*.json$
-Disallow: /*.xml$
-Disallow: /*?*
 
-# Crawl-delay
-Crawl-delay: 10
+

@@ -176,13 +176,13 @@ Sunflowers are also very important. They create sun, which you use like money in
         </div>
         
         <div className="mt-8 space-y-2">
-          <AppDetails icon={<Smartphone size={20} />} label="Name" value="Plants vs Zombies™" />
-          <AppDetails icon={<Building2 size={20} />} label="Publisher" value="Electronic Arts" />
-          <AppDetails icon={<List size={20} />} label="Genre" value="Casual" />
-          <AppDetails icon={<Database size={20} />} label="Size" value="843.91M" />
+          <AppDetails icon={<Smartphone size={20} />} label="Name" value="Plants Vs. Zombies™ Classic" />
+          <AppDetails icon={<Building2 size={20} />} label="Publisher" value="" />
+          <AppDetails icon={<List size={20} />} label="Genre" value="Strategy" />
+          <AppDetails icon={<Database size={20} />} label="Size" value="109.67M" />
           <AppDetails icon={<Zap size={20} />} label="Version" value="3.8.1" />
-          <AppDetails icon={<Clock size={20} />} label="Update" value="Nov 27, 2024" />
-          <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Coins/Suns" />
+          <AppDetails icon={<Clock size={20} />} label="Update" value="Jan 18, 2025" />
+          <AppDetails icon={<Gamepad size={20} />} label="MOD" value="Unlimited Money" />
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">

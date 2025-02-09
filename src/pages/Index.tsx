@@ -146,7 +146,7 @@ const Index = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         <AppHeader 
-          title="Plants vs Zombies (MOD, Unlimited Money, Coins, Sun) v3.8.1"
+          title="Plants vs Zombies MOD APK 3.8.1 (Unlimited Money, Coins, Sun)"
           version="3.8.1"
           size="109.67M"
           iconUrl="/lovable-uploads/f1121a24-6fe5-4fc0-ab23-0f1728879a95.png"

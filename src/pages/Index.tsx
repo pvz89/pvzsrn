@@ -159,11 +159,19 @@ const Index = () => {
 
         <div className="mt-8 bg-gray-50 rounded-lg p-6">
           <p className="text-gray-700 leading-relaxed mb-4">
-            Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
+          Plants vs zombies apk mod is a fun game that is easy to play and you wont put it down. In this game you must protect your home using special plants. Your lawn becomes a small battlefield where each plant plays a unique part. Some plants shoot at zombies from far away, while others earn you the sun you need to grow more plants. With a clear plan and a few smart moves, you can stop the zombies from reaching your house.  
+          
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Plants vs Zombies (MOD, Unlimited Coins/Suns) - battle with the mobs of zombies in a new and exciting battle. Fight off all attacks of the dead, and do not let them get into the yard. Create your invincible defense, think through tactics and build protective nuts, which for a long time will stop the advance of opponents. The game PvZ Free mod apk has good graphics and a large number of tasks and a variety of locations. On which you will meet many heroes, and as you progress through the game you will discover new plants that have unique abilities.
+          At the start of every level, you see your garden split into rows or lanes. You choose where to place your plants, and each one has a simple job. The peashooter, for example, fires peas at the zombies from a distance. It is best placed in the second row, where it can hit the zombies before they come too near. Meanwhile, wall nuts stand at the front. They take the hits for you, slowing the zombies down so that your other plants have time to act.
+ 
+          
           </p>
+Sunflowers are also very important. They create sun, which you use like money in the game. With more sun, you can plant more defences and build up your garden slowly. Planting sunflowers in the early stages of a level helps you gain the resources you need later on.
+
+          <p>
+
+           </p>
         </div>
         
         <div className="mt-8 space-y-2">

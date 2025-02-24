@@ -158,7 +158,7 @@ const Index = () => {
 
         <div className="mt-8 bg-gray-50 rounded-lg p-6">
           <p className="text-gray-700 leading-relaxed mb-4">
-          Plants vs zombies apk mod is a fun game that is easy to play and you wont put it down. In this game you must protect your home using special plants. Your lawn becomes a small battlefield where each plant plays a unique part. Some plants shoot at zombies from far away, while others earn you the sun you need to grow more plants. With a clear plan and a few smart moves, you can stop the zombies from reaching your house.  
+          Plants vs Zombies MOD APK v3.8.1 is your ultimate gateway to a redefined zombie defense experience. Published by ELECTRONIC ARTS, this classic strategy and tower defense game lets you battle quirky, relentless zombies with an arsenal of unique plants. Enjoy enhanced gameplay with features like Unlimited Money/Coins, Unlimited Suns, and No Cooldown—all accessible through a comprehensive MOD MENU. 
           
           </p>
           <p className="text-gray-700 leading-relaxed">
@@ -167,8 +167,12 @@ const Index = () => {
           
           </p>
           <p>
-Sunflowers are also very important. They create sun, which you use like money in the game. With more sun, you can plant more defences and build up your garden slowly. Planting sunflowers in the early stages of a level helps you gain the resources you need later on.
+<b>Game Overview</b>
+In Plants vs Zombies, you defend your home (or garden) against waves of quirky zombies. This modified version stays true to the classic gameplay:
 
+Strategic Planting: Choose from an array of plants—from peashooters to wall-nuts—to build a strong defense.
+Diverse Zombie Hordes: Face off against various zombie types, each with unique abilities.
+Enhanced Features: With unlimited resources and instant ability recharge, you gain an edge in both Adventure and Survival modes.
           
 
            </p>

@@ -168,7 +168,9 @@ const Index = () => {
           </p>
           <p>
 <b>Game Overview</b><br />
-In Plants vs Zombies, you defend your home (or garden) against waves of quirky zombies. This modified version stays true to the classic gameplay:
+<p><a href="https://plantvszomod.online/">Plants vs Zombies MOD APK </a>
+</p>
+  In Plants vs Zombies, you defend your home (or garden) against waves of quirky zombies. This modified version stays true to the classic gameplay:
 
 Strategic Planting: Choose from an array of plants—from peashooters to wall-nuts—to build a strong defense.
 Diverse Zombie Hordes: Face off against various zombie types, each with unique abilities.
